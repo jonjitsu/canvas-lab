@@ -1,0 +1,41 @@
+{
+    "name": "",
+    "version": "0.0.0",
+    "description": "",
+    "main": "public/index.html",
+    "scripts": {
+        "test": "test"
+    },
+    "author": "jonathan willis",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/jonathanallenwillis"
+    },
+    "dependencies": {},
+
+    "devDependencies": {
+        "browser-sync": "^2.9.6",
+        "chai": "^3.3.0",
+        "del": "^2.0.2",
+        "gulp": "^3.9.0",
+        "gulp-concat-css": "^2.2.0",
+        "gulp-minify-css": "^1.2.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-replace": "^0.5.4",
+        "gulp-size": "^2.0.0",
+        "gulp-sourcemaps": "^1.5.2",
+        "mocha": "^2.3.3",
+        "sinon": "^1.17.1",
+        "sinon-chai": "^2.8.0",
+        "traceur": "0.0.91",
+        "gulp-util": "~3.0.6",
+        "gulp-eslint": "~1.0.0",
+        "eslint": "~1.7.0",
+        "eslint-plugin-angular": "~0.12.0",
+        "eslint-config-angular": "~0.4.0",
+        "eslint-config-defaults": "~7.0.1",
+        "gulp-concat": "~2.6.0",
+        "gulp-uglify": "~1.4.2"
+    }
+}
+

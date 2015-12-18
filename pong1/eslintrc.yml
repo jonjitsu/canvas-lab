@@ -1,5 +1,0 @@
----
-extends:
-  - defaults
-globals:
-  angular: true

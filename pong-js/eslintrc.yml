@@ -1,0 +1,9 @@
+---
+extends:
+  - defaults
+globals:
+  angular: true
+  document: true
+
+rules:
+  no-unused-vars: 0

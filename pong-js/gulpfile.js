@@ -22,18 +22,20 @@ gulp.task('lint', function(){
     var options = {
         configFile: 'eslintrc.yml'
     };
-    return gulp.src(['src/js/**/*.js'])
+    return gulp.src(['public/js/**/*.js'])
         .pipe(eslint(options))
         .pipe(eslint.format())
         .pipe(eslint.failAfterError());
 });
 
-gulp.task('serve', [], function() {
+gulp.task('serve', ['lint'], function() {
     browserSync.init({
         server: './public',
         files: ['public/**/*'],
         open: false
     });
+
+    gulp.watch('public/js/*.js', ['lint']);
 });
 
 gulp.task('test', function() {
